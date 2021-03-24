@@ -2,7 +2,8 @@
 ### **Author:** Val Evander M. Wong (vmw170030)
 Machine Project 1 for CS 4367.001. Exploration of the Soot Static Program Analysis Framework.
 
-Import all java files into the same project source folder.
+Prior Instructions:\
+Import all java files into the same project source folder.\
 NOTE: *All files must be under the **same src folder** and under the **default** package.*
 
 ## Part 0 - Getting Started
