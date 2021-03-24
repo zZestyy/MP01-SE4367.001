@@ -2,8 +2,8 @@
 ### **Author:** Val Evander M. Wong (vmw170030)
 Machine Project 1 for CS 4367.001. Exploration of the Soot Static Program Analysis Framework.
 
-## Importing the files
-1. 
+## Import all java files into the same project source folder.
+NOTE: *All files must be under the **same src folder** and under the **default** package.*
 
 ## Part 0 - Getting Started
 **Files Utilized:**
@@ -24,7 +24,7 @@ Execution Instruction(s):
 - GCD.java
 
 Description:
-Given a program GCD, utilize Soot to build a control graph where each object in the control graph is an object of type DominatorFinder. Then finds all the dominators using DominatorFinder class.
+Given the program GCD, utilize Soot to build a control graph where each object in the control graph is an object of type DominatorFinder. Then finds all the dominators using DominatorFinder class.
 
 Execution Instruction(s):
 1. Add necessary java files into the same project source folder.
