@@ -44,7 +44,7 @@ Execution Instruction(s):
 2.  Run 'TestSootCallGraph.java'
 
 Question: Which method does animal.saySomething() in the main method of Example.java call?\
-Answer: animal.saySomething() calls Cat.saySomething through points-to-analysis (PTA).
+Answer: animal.saySomething() calls Cat.saySomething proven through points-to-analysis (PTA).
 
 Question: Compare the precision and speed between CHA and PTA.\
 Answer: PTA is much more precise because it won't report false calls which CHA may do. PTA, however, has a higher runtime of 2120 milliseconds as opposed to CHA's faster time of 1927 milliseconds.
