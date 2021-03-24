@@ -4,7 +4,7 @@ Machine Project 1 for CS 4367.001. Exploration of the Soot Static Program Analys
 
 ***NOTE: Must use Java 8 or below.***
 
-## Prior Instructions:\
+## Prior Instructions:
 1. Designate a folder for a Java Project. Create a folder within that Java Project and name it 'lib'.
 2. Add Soot-3.3.0.jar within the lib folder.
 3. Create a Java Project within Eclipse IDE using the designated project folder.
