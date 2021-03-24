@@ -40,6 +40,15 @@ Execution Instruction(s):
 1. Add necessary java files into the same project source folder.
 2. Run 'TestDominator.java'
 
+**Proof Code is Correct:**
+By analyzing the output of the code with respect to the definition of what it Dominator means:
+
+By definition, a node d dominates a node n if every path from the entry node to n must go through d, and every node
+dominates itself.
+
+The code correctly illustrates the proper outputs that matches the definition and that a statement dominates itself.
+
+
 
 ## Part 2 - Data Flow Analysis (Call Graph Construction)
 **Files Utilized:**
