@@ -5,7 +5,7 @@ Machine Project 1 for CS 4367.001. Exploration of the Soot Static Program Analys
 ***NOTE: Must use Java 8 or below.***
 
 ## Prior Instructions:
-1. Designate a folder for a Java Project. Create a folder within that Java Project and name it 'lib'.
+1. Designate a project folder for a Java Project. Create a folder within that Java Project and name it 'lib'.
 2. Add 'Soot-3.3.0.jar' within the lib folder.
 3. Create a Java Project within Eclipse IDE using the designated project folder.
 4. Import all .java files into the **same project source folder** and **under the default package**.
@@ -50,11 +50,11 @@ Execution Instruction(s):
 1.  Add necessary java files into the same project source folder.
 2.  Run 'TestSootCallGraph.java'
 
-Question: Which method does animal.saySomething() in the main method of Example.java call?\
-Answer: animal.saySomething() calls Cat.saySomething proven through points-to-analysis (PTA).
+**Question:** Which method does animal.saySomething() in the main method of Example.java call?\
+**Answer:** animal.saySomething() calls Cat.saySomething proven through points-to-analysis (PTA).
 
-Question: Compare the precision and speed between CHA and PTA.\
-Answer: PTA is much more precise because it won't report false calls which CHA may do. PTA, however, has a higher runtime of 2120 milliseconds as opposed to CHA's faster time of 1927 milliseconds.
+**Question:** Compare the precision and speed between CHA and PTA.\
+**Answer:** PTA is much more precise because it won't report false calls which CHA may do. PTA, however, has a higher runtime of 2120 milliseconds as opposed to CHA's faster time of 1927 milliseconds. PTA needs to analyze the data flow in the whole program, and often takes much more time and memory than CHA
 
 ## Part 3 - Program Instrumentation with Soot
 **Files Utilized:**
