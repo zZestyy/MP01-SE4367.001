@@ -6,12 +6,12 @@ Machine Project 1 for CS 4367.001. Exploration of the Soot Static Program Analys
 
 ## Prior Instructions:
 1. Designate a folder for a Java Project. Create a folder within that Java Project and name it 'lib'.
-2. Add Soot-3.3.0.jar within the lib folder.
+2. Add 'Soot-3.3.0.jar' within the lib folder.
 3. Create a Java Project within Eclipse IDE using the designated project folder.
 4. Import all .java files into the **same project source folder** and **under the default package**.
 5. Right Click on the project. Select 'Properties'.
 6. Select 'Java Build Path'. Select 'Libraries' tab.
-7. Add External JARs and select the Soot-3.3.0.jar within the lib folder.
+7. Add External JARs and select the 'Soot-3.3.0.jar' within the lib folder.
 
 ## Part 0 - Getting Started
 **Files Utilized:**
