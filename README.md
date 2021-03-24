@@ -41,12 +41,12 @@ Execution Instruction(s):
 2. Run 'TestDominator.java'
 
 **Proof Code is Correct:**
-By analyzing the output of the code with respect to the definition of what it Dominator means:
+By analyzing the output of the code with respect to the definition of what a 'Dominator' means:
 
-By definition, a node d dominates a node n if every path from the entry node to n must go through d, and every node
-dominates itself.
+*By definition, a node d dominates a node n if every path from the entry node to n must go through d, and every node
+dominates itself.*
 
-The code correctly illustrates the proper outputs that matches the definition and that a statement dominates itself.
+The program correctly illustrates the proper outputs that matches the definition and that a statement dominates itself.
 
 
 
