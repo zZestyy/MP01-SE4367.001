@@ -78,10 +78,32 @@ Execution Instruction(s):
 - TestSootLoggingHeap.java
 
 **Description:**\
-'TestSootLogging.java' logs all method calls in the main method of 'Example.java'. 'TestSootLogging.java' also creates a folder 'sootOutput' in the project folder that contains Jimple files. 'TestSootLoggingHeap.java' logs every read and write statement that accesses data on the heap of 'HelloThread.java'.
+Logging Method Calls:\
+'TestSootLogging.java' logs all method calls in the main method of 'Example.java'. 'TestSootLogging.java' also creates a folder 'sootOutput' in the project folder that contains Jimple files. 
 
 Execution Instruction(s):
 1. Add 'Example.java' and 'TestSootLogging.java' to the same project source folder.
 2. Run 'TestSootLogging.java'.
+
+**Description:**\
+Tracing Heap Accesses:\
+'TestSootLoggingHeap.java' logs every read and write statement that accesses data on the heap of 'HelloThread.java'.
+
+Execution Instruction(s):
 3. Add 'HelloThread.java', 'Log.java', and 'TestSootLoggingHeap.java' to the same project source folder.
 4. Run 'TestSootLoggingHeap.java'.
+
+
+TestSootLoggingHeap.java Output:\
+
+Thread Thread-5 wrote static field <HelloThread: int x>
+Thread Thread-6 wrote static field <HelloThread: int x>
+Thread Thread-6 read instance field r0.<HelloThread$TestThread: int y> of object $i0 = r0.<HelloThread$TestThread: int y>
+Thread Thread-6 wrote instance field r0.<HelloThread$TestThread: int y> of object r0.<HelloThread$TestThread: int y> = $i1
+Thread Thread-5 read instance field $r2.<HelloThread$TestThread: int y> of object $i3 = $r2.<HelloThread$TestThread: int y>
+Thread Thread-5 read static field <HelloThread: int x>
+Thread Thread-5 read static field <java.lang.System: java.io.PrintStream out>
+
+Total Write(s): 3\
+Total Read(s): 4\
+
