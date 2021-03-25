@@ -95,12 +95,12 @@ Execution Instruction(s):\
 
 **TestSootLoggingHeap.java Output:**
 
-Thread Thread-5 wrote static field <HelloThread: int x>
-Thread Thread-6 wrote static field <HelloThread: int x>
-Thread Thread-6 read instance field r0.<HelloThread$TestThread: int y> of object $i0 = r0.<HelloThread$TestThread: int y>
-Thread Thread-6 wrote instance field r0.<HelloThread$TestThread: int y> of object r0.<HelloThread$TestThread: int y> = $i1
-Thread Thread-5 read instance field $r2.<HelloThread$TestThread: int y> of object $i3 = $r2.<HelloThread$TestThread: int y>
-Thread Thread-5 read static field <HelloThread: int x>
+Thread Thread-5 wrote static field <HelloThread: int x>\
+Thread Thread-6 wrote static field <HelloThread: int x>\
+Thread Thread-6 read instance field r0.<HelloThread$TestThread: int y> of object $i0 = r0.<HelloThread$TestThread: int y>\
+Thread Thread-6 wrote instance field r0.<HelloThread$TestThread: int y> of object r0.<HelloThread$TestThread: int y> = $i1\
+Thread Thread-5 read instance field $r2.<HelloThread$TestThread: int y> of object $i3 = $r2.<HelloThread$TestThread: int y>\
+Thread Thread-5 read static field <HelloThread: int x>\
 Thread Thread-5 read static field <java.lang.System: java.io.PrintStream out>
 
 
