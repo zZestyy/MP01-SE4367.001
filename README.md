@@ -22,7 +22,7 @@ Machine Project 1 for CS 4367.001. Exploration of the Soot Static Program Analys
 **Description:**\
 Utilize Soot, through 'TestSoot.java', to analyze 'HelloThread.java'. 'TestSoot.java' outputs Jimple statements in each method of the class HelloThread.
 
-Execution Instruction(s):
+Execution Instruction(s):\
 1. Add necessary java files into the same project source folder.
 2. Run 'TestSoot.java'.
 
@@ -33,10 +33,10 @@ Execution Instruction(s):
 - DominatorFinder.java
 - GCD.java
 
-**Description:**\
+**Description:**
 Given the program GCD, utilize Soot to build a control graph where each object in the control graph is an object of type DominatorFinder. Then finds all the dominators using DominatorFinder class.
 
-Execution Instruction(s):
+Execution Instruction(s):\
 1. Add necessary java files into the same project source folder.
 2. Run 'TestDominator.java'
 
@@ -55,10 +55,10 @@ The program correctly illustrates the proper outputs that matches the definition
 - Example.java
 - TestSootCallGraph.java
 
-**Description:**\
+**Description:**
 Run and Compare class hierarchy analysis (CHA) and points-to-analysis (PTA).
 
-Execution Instruction(s):
+Execution Instruction(s):\
 1.  Add necessary java files into the same project source folder.
 2.  Run 'TestSootCallGraph.java'
 
@@ -81,7 +81,7 @@ Execution Instruction(s):
 Logging Method Calls:\
 'TestSootLogging.java' logs all method calls in the main method of 'Example.java'. 'TestSootLogging.java' also creates a folder 'sootOutput' in the project folder that contains Jimple files. 
 
-Execution Instruction(s):
+Execution Instruction(s):\
 1. Add 'Example.java' and 'TestSootLogging.java' to the same project source folder.
 2. Run 'TestSootLogging.java'.
 
@@ -89,7 +89,7 @@ Execution Instruction(s):
 Tracing Heap Accesses:\
 'TestSootLoggingHeap.java' logs every read and write statement that accesses data on the heap of 'HelloThread.java'.
 
-Execution Instruction(s):
+Execution Instruction(s):\
 3. Add 'HelloThread.java', 'Log.java', and 'TestSootLoggingHeap.java' to the same project source folder.
 4. Run 'TestSootLoggingHeap.java'.
 
