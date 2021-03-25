@@ -33,7 +33,7 @@ Execution Instruction(s):\
 - DominatorFinder.java
 - GCD.java
 
-**Description:**
+**Description:**\
 Given the program GCD, utilize Soot to build a control graph where each object in the control graph is an object of type DominatorFinder. Then finds all the dominators using DominatorFinder class.
 
 Execution Instruction(s):\
@@ -55,7 +55,7 @@ The program correctly illustrates the proper outputs that matches the definition
 - Example.java
 - TestSootCallGraph.java
 
-**Description:**
+**Description:**\
 Run and Compare class hierarchy analysis (CHA) and points-to-analysis (PTA).
 
 Execution Instruction(s):\
@@ -94,7 +94,7 @@ Execution Instruction(s):\
 4. Run 'TestSootLoggingHeap.java'.
 
 
-TestSootLoggingHeap.java Output:\
+**TestSootLoggingHeap.java Output:**
 
 Thread Thread-5 wrote static field <HelloThread: int x>
 Thread Thread-6 wrote static field <HelloThread: int x>
@@ -104,6 +104,7 @@ Thread Thread-5 read instance field $r2.<HelloThread$TestThread: int y> of objec
 Thread Thread-5 read static field <HelloThread: int x>
 Thread Thread-5 read static field <java.lang.System: java.io.PrintStream out>
 
-Total Write(s): 3\
-Total Read(s): 4\
+
+**Total Write(s):** 3\
+**Total Read(s):** 4\
 
